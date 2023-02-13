@@ -1,6 +1,7 @@
 {
     "okButton": "OK",
     "cancelButton": "Batal",
+    "updateButton": "Kemas kini",
     "enabledLabel": "Diaktifkan",
     "disabledLabel": "Dimatikan",
     "yesButton": "Ya",
@@ -21,7 +22,7 @@
         "noInstallations": "Tiada aplikasi dimodifikasi yang telah dipasang",
         "installed": "Dipasang",
         "updateDialogTitle": "Kemas Kini Manager",
-        "updateDialogText": "Adakah anda ingin memuat turun dan mengemas kini ReVanced Manager?",
+        "updateChangelogTitle": "Log perubahan",
         "notificationTitle": "Kemaskini dimuat turun",
         "notificationText": "Tap untuk memuat masuk kemas kini",
         "downloadingMessage": "Memuat turun pengemaskinian...",
@@ -81,13 +82,13 @@
         "all": "Semua",
         "none": "Tiada",
         "loadPatchesSelection": "Memuat pilihan modifikasi",
-        "noSavedPatches": "Tiada modifkasi disimpan untuk aplikasi dipilih\nTekan Selesai untuk menyimpan pilihan semasa",
+        "noSavedPatches": "Tiada modifkasi disimpan untuk aplikasi dipilih.\nTekan Selesai untuk menyimpan pilihan semasa.",
         "noPatchesFound": "Tiada modifikasi dijumpai untuk apl pilihan",
         "selectAllPatchesWarningContent": "Anda telah memilih untuk menggunakan kesemua modifikasi, termasuk modifikasi yang tidak disyorkan dan boleh mengakibatkan kesan yang tidak dijangka."
     },
     "patchItem": {
         "unsupportedDialogText": "Memilih modifikasi mungkin menyebabkan ralat ketika modifikasi.\n\nVersi aplikasi: {packageVersion}\nVersi disokong:\n{supportedVersions}",
-        "unsupportedPatchVersion": "Patch tidak disokong untuk versi apl ini. Benarkan punat percubaan di ruang tetapan untuk teruskan."
+        "unsupportedPatchVersion": "Patch tidak disokong untuk versi aplikasi ini. Hidupkan mod percubaan di ruang tetapan untuk teruskan."
     },
     "installerView": {
         "widgetTitle": "Pemasang",
@@ -121,6 +122,7 @@
         "englishOption": "Inggeris",
         "sourcesLabel": "Sumber",
         "sourcesLabelHint": "Tetapkan sumber khas",
+        "hostRepositoryLabel": "Repository API",
         "orgPatchesLabel": "Pengarang Modifikasi",
         "sourcesPatchesLabel": "Sumber Modifikasi",
         "orgIntegrationsLabel": "Pengarang Integrasi",
@@ -135,6 +137,8 @@
         "apiURLLabel": "URL API",
         "apiURLHint": "Tetapkan URL API khas",
         "selectApiURL": "URL API",
+        "experimentalUniversalPatchesLabel": "Sokongan universal modifikasi percubaan",
+        "experimentalUniversalPatchesHint": "Memaparkan semua aplikasi untuk digunakan dengan patch universal, senarai loading aplikasi mungkin lebih perlahan",
         "experimentalPatchesLabel": "Sokongan modifikasi percubaan",
         "experimentalPatchesHint": "Benarkan untuk menggunakan patch yang tidak disokong untuk mana-mana versi apl",
         "enabledExperimentalPatches": "Sokongan modifikasi percubaan dibenarkan",
@@ -148,7 +152,7 @@
         "deleteKeystoreHint": "Buang keystore yang digunakan untuk mengesahkan apl",
         "deletedKeystore": "Keystore dibuang",
         "deleteTempDirLabel": "Buang fail sementara",
-        "deleteTempDirHint": "Buang fail sementara yang tidak digunakan",
+        "deleteTempDirHint": "Padam fail sementara yang tidak digunakan",
         "deletedTempDir": "Fail sementara dibuang",
         "exportPatchesLabel": "Eksport pilihan modifikasi",
         "exportPatchesHint": "Eksport pilihan modifikasi ke fail JSON",

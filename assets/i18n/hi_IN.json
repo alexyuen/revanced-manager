@@ -1,6 +1,7 @@
 {
     "okButton": "ठीक है",
     "cancelButton": "रद्द करें",
+    "updateButton": "अपडेट करें",
     "enabledLabel": "सक्रिय",
     "disabledLabel": "निष्क्रिय",
     "yesButton": "हाँ",
@@ -21,7 +22,7 @@
         "noInstallations": "कोई पैबंद किये हुआ अनुप्रयोग नहीं है।",
         "installed": "इंस्टॉल किया हुआ",
         "updateDialogTitle": "अपडेट Manager",
-        "updateDialogText": "क्या आप ReVanced Manager को डाउनलोड और अपडेट करना चाहते है?",
+        "updateChangelogTitle": "परिवर्तन पत्र",
         "notificationTitle": "अपडेट डाउनलोड हो चुका है",
         "notificationText": "अपडेट को इंस्टॉल करने हेतु यहाँ टैप करें",
         "downloadingMessage": "अपडेट डाउनलोड हो रहा है",
@@ -81,13 +82,13 @@
         "all": "सभी",
         "none": "कोई भी नहीं",
         "loadPatchesSelection": "चयन किए गए पैच लोड करें",
-        "noSavedPatches": "चयनित ऐप के लिए कोई सहेजा पैच नहीं है\nवर्तमान चयन को सेव करने के लिए \"डन\" दबाएं",
+        "noSavedPatches": "चयनित ऐप के लिए कोई सहेजे गए पैच नहीं । \nदबाएँ किया हुआ वर्तमान चयन को बचाने के लिए ।",
         "noPatchesFound": "चुने हुए ऐप्लकैशन के लिए कोई पैच नहीं मिले",
         "selectAllPatchesWarningContent": "आप सभी पैच का चयन करने वाले हैं, जिसमें अनुशंसित पैच शामिल हैं और अवांछित व्यवहार का कारण बन सकते हैं।"
     },
     "patchItem": {
         "unsupportedDialogText": "इस पैच को चुनने से पैचिंग मे त्रुटि हो सकती है। \n\nएप वर्ज़न: {packageVersion}\nसमर्थित वर्ज़न:\n{supportedVersions}",
-        "unsupportedPatchVersion": "इस ऐप संस्करण के लिए पैच समर्थित नहीं है। आगे बढ़ने के लिए सेटिंग में प्रयोगात्मक टॉगल सक्षम करें."
+        "unsupportedPatchVersion": "पैच इस एप्लिकेशन संस्करण के लिए समर्थित नहीं है । आगे बढ़ने के लिए सेटिंग्स में प्रयोगात्मक टॉगल सक्षम करें ।"
     },
     "installerView": {
         "widgetTitle": "इंस्टॉल कर्ता",
@@ -121,6 +122,7 @@
         "englishOption": "अंग्रेज़ी",
         "sourcesLabel": "स्रोत",
         "sourcesLabelHint": "अपने कस्टम साधन कॉन्फ़िगर करे",
+        "hostRepositoryLabel": "रिपोजिटरी एपीआई",
         "orgPatchesLabel": "पैच संगठन",
         "sourcesPatchesLabel": "पैच स्रोत",
         "orgIntegrationsLabel": "एकीकरण संगठन",
@@ -135,6 +137,8 @@
         "apiURLLabel": "API  URL",
         "apiURLHint": "अपनी कस्टम API URL कॉन्फ़िगर करे",
         "selectApiURL": "API URL",
+        "experimentalUniversalPatchesLabel": "प्रायोगिक सार्वभौमिक पैच समर्थन",
+        "experimentalUniversalPatchesHint": "सार्वभौमिक पैच के साथ उपयोग करने के लिए सभी एप्लिकेशन प्रदर्शित करें, ऐप्स की लोडिंग सूची धीमी हो सकती है",
         "experimentalPatchesLabel": "प्रायोगिक पैच समर्थन",
         "experimentalPatchesHint": "किसी भी ऐप संस्करण में असमर्थित पैच का उपयोग करने में सक्षम करें",
         "enabledExperimentalPatches": "प्रायोगिक पैच समर्थन इनेबल्ड",
@@ -148,7 +152,7 @@
         "deleteKeystoreHint": "ऐप पर हस्ताक्षर करने के लिए उपयोग की जाने वाली कीस्टोर हटाएं",
         "deletedKeystore": "कीस्टोर हटा दिया गया",
         "deleteTempDirLabel": "अस्थाई फ़ाइलें मिटायें",
-        "deleteTempDirHint": "अप्रयुक्त अस्थाई फ़ाइलें मिटायें",
+        "deleteTempDirHint": "अप्रयुक्त अस्थायी फ़ाइलों को हटाएं",
         "deletedTempDir": "क्षणिक फ़ाईल मिटाए गए।",
         "exportPatchesLabel": "चयन किए गए पैच एक्सपोर्ट करें",
         "exportPatchesHint": "चयन किए गए पैच को JSON फाइल में एक्सपोर्ट करें",
